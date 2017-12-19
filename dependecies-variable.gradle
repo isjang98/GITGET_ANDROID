@@ -1,0 +1,12 @@
+ext {
+    ver_android_support = "26.1.0"
+    ver_retrofit = "2.3.0"
+
+    retrofit = "com.squareup.retrofit2:retrofit:$ver_retrofit"
+    retrofit_convert_gson = "com.squareup.retrofit2:converter-gson:$ver_retrofit"
+    retrofit_adapter_rxjava2 = "com.squareup.retrofit2:adapter-rxjava2:$ver_retrofit"
+
+
+    support_appcompat = "com.android.support:appcompat-v7:$ver_android_support"
+    support_recyclerview = "com.android.support:recyclerview-v7:$ver_android_support"
+}
