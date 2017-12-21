@@ -31,6 +31,21 @@ dependencies {
     implementation support_recyclerview
 
 
+    implementation okhttp_logging
+
+    implementation gson
+
+    implementation rxjava2
+    implementation rxjava2_android
+
+    kapt dagger_compiler
+    provided javax_annotation
+
+    compile dagger
+    compile stetho_okhttp
+
+
+
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
