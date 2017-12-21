@@ -3,6 +3,7 @@ ext {
     ver_retrofit = "2.3.0"
     ver_espresso = "3.0.1"
     ver_dagger2 = "2.12"
+    ver_stetho = "1.4.2"
 
 
     retrofit = "com.squareup.retrofit2:retrofit:$ver_retrofit"
